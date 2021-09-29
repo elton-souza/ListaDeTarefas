@@ -1,0 +1,25 @@
+:root {
+    --vermelho: rgb(180, 50, 50);
+    --preto: rgb(13, 21, 22);
+    --branco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 21, 22);
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
