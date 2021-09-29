@@ -1,5 +1,5 @@
 import { renderTarefa } from "./renderizarTarefa.js"
-export function getData(){ 
+export function acessarDados(){ 
     const lista = document.querySelector('[data-lista]')
     lista.innerHTML = ""
     const tarefaCadastradas = JSON.parse(localStorage.getItem('tarefas'))

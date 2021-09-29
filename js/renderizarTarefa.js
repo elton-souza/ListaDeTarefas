@@ -1,4 +1,4 @@
-import { getData } from "./acessarStorage.js"
+import { acessarDados } from "./acessarStorage.js"
 import botaoConlcuir from './deletarTarefa.js'
 import botaoDeletar from './concluirTarefa.js'
 
@@ -13,8 +13,8 @@ export function renderTarefa({valor,validar},id){
     tarefa.classList.add('tarefa')
     tarefa.innerHTML = conteudo
 
-    div.appendChild(botaoDeletar(getData, id))
-    div.appendChild(botaoConlcuir(getData,id))
+    div.appendChild(botaoDeletar(acessarDados, id))
+    div.appendChild(botaoConlcuir(acessarDados,id))
 
     tarefa.appendChild(div)
 

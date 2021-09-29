@@ -1,4 +1,4 @@
-import {getData} from './acessarStorage.js'
+import {acessarDados} from './acessarStorage.js'
 
 export default function criarTarefa(){
     const tarefas = JSON.parse(localStorage.getItem('tarefas'))|| []
@@ -19,5 +19,5 @@ export default function criarTarefa(){
 
     input.value = ""
 
-    getData()
+    acessarDados()
 }
