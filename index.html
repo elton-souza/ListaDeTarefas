@@ -18,11 +18,12 @@
                 <button class="add-tarefa" data-form-button>OK</button>
             </div>   
             <ul class="lista-itens" data-lista></ul>
-            <div>
-                <select data-opcoes>
-                    <option value="">Geral</option>
-                    <option value="">A fazer</option>
-                    <option value="">Concluído</option>
+            <div class="lista-filtro">
+                <span class="filtro-legenda">Filtro:</span>
+                <select data-opcoes class="filtro-opcoes">
+                    <option value="geral">Geral</option>
+                    <option value="pendente">Pendentes</option>
+                    <option value="concluida">Concluídas</option>
                 </select>
             </div>
         </section>

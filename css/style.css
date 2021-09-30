@@ -51,9 +51,9 @@
     border-radius: 20px;
 }
 .tarefa-finalizada{
-    text-decoration: line-through;
+    text-decoration:line-through;
 }
-.tarefa > div{
+.tarefa-funcoes{
     display: flex;
     align-items: center;
     margin-left: 5px;
@@ -75,6 +75,21 @@
     background-image: url('../img/deletar.svg');
     background-repeat: no-repeat;
     background-position: center;
+}
+.lista-filtro{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.filtro-legenda{
+    font-size: 15px;
+    color:#fff;
+}
+.filtro-opcoes{
+    padding: 3px;
+    background-color: #000;
+    color: #fff;
+    border: none;
 }
 @media screen and (max-width:450px) {
     .lista{

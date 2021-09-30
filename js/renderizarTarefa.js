@@ -15,7 +15,7 @@ export function renderTarefa({valor,validar},id){
 
     div.appendChild(botaoDeletar(acessarDados, id))
     div.appendChild(botaoConlcuir(acessarDados,id))
-
+    div.classList.add('tarefa-funcoes')
     tarefa.appendChild(div)
 
     return tarefa
